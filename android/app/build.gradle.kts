@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.example.popular_gitrepos"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 35 // flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
