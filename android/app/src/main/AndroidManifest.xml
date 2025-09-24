@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="popular_gitrepos"
+        android:label="Popular GitRepos"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
