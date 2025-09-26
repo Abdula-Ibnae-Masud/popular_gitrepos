@@ -30,13 +30,17 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  dio:
-  flutter_bloc:
-  equatable:
-  sqflite:
-  go_router:
-  connectivity_plus:
-  intl:
+  flutter_bloc: ^8.1.2
+  dio: ^5.2.1
+  sqflite: ^2.2.8
+  path_provider: ^2.0.15
+  path: ^1.8.3
+  go_router: 
+  get_it: ^7.6.0
+  cached_network_image: ^3.2.3
+  connectivity_plus: ^4.0.2
+  intl: ^0.18.1
+  equatable: ^2.0.5
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
