@@ -7,7 +7,7 @@ import '../../core/network/network_info.dart';
 class GitRepositoryImpl implements GitRepository {
   final GitRemoteDataSource remote;
   final GitLocalDataSource local;
-  final NetworkInfo networkInfo;
+  final CheckInternetConnection networkInfo;
 
   GitRepositoryImpl({
     required this.remote,

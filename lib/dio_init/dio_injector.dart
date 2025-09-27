@@ -33,7 +33,9 @@ Future<void> init() async {
   dioInitialize.registerLazySingleton<Dio>(() => dio);
 
   // Core
-  dioInitialize.registerLazySingleton<NetworkInfo>(() => NetworkInfoImpl());
+  dioInitialize.registerLazySingleton<CheckInternetConnection>(
+    () => GetNetworkInfo(),
+  );
 
   // Data sources
   final local = GitLocalDataSource();

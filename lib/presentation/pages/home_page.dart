@@ -34,10 +34,13 @@ class HomePage extends StatelessWidget {
                   itemBuilder: (context, index) {
                     final repo = repos[index];
                     return Container(
-                      margin: EdgeInsets.only(bottom: 8),
-                      color: index % 2 == 0
-                          ? Colors.transparent
-                          : Colors.white60,
+                      margin: EdgeInsets.fromLTRB(12, 0, 12, 8),
+                      decoration: BoxDecoration(
+                        color: index % 2 == 0
+                            ? Colors.transparent
+                            : Colors.white54,
+                        borderRadius: BorderRadius.circular(12),
+                      ),
                       child: ListTile(
                         leading: CircleAvatar(
                           backgroundImage: CachedNetworkImageProvider(
