@@ -7,7 +7,7 @@ class GitRemoteDataSource {
 
   GitRemoteDataSource({required this.client});
 
-  Future<List<RepositoryModel>> searchRepos({
+  Future<List<RepositoryModel>> searchInRepository({
     required String query,
     int page = 1,
     int perPage = 30,

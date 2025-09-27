@@ -20,7 +20,7 @@ class GitRepositoryImpl implements GitRepository {
     final isOnline = await networkInfo.isConnected;
     if (isOnline) {
       try {
-        final remoteList = await remote.searchRepos(
+        final remoteList = await remote.searchInRepository(
           query: 'Android',
           page: page,
         );
